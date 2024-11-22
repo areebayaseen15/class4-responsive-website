@@ -46,7 +46,6 @@ const Navbar = () => {
             SHOP.CO
           </h1>
 
-          {/* Nav Links for Desktop */}
           <ul
             className="hidden sm:flex gap-5 font-medium text-sm sm:text-base text-black"
           >
@@ -56,7 +55,6 @@ const Navbar = () => {
             <li>Brands</li>
           </ul>
 
-          {/* Search Bar */}
           <div
             className="hidden sm:flex items-center bg-[#F0F0F0] w-full max-w-[300px] xl:max-w-[577px] 
             h-[48px] rounded-[62px] px-4"
@@ -69,7 +67,6 @@ const Navbar = () => {
             />
           </div>
 
-          {/* Icons */}
           <div className="flex gap-3 items-center">
             <IoSearchOutline className="sm:hidden w-6 h-6 text-black" />
             <LuShoppingCart className="w-6 h-6 text-black" />
